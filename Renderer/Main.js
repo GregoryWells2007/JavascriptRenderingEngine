@@ -3,7 +3,7 @@ function DrawImage(name) {
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
     drawing = new Image();
-    drawing.src = "draw.png";
+    drawing.src = name;
     ctx.drawImage(drawing, 10, 10);
   };
 }
